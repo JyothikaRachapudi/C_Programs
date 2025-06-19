@@ -1,0 +1,14 @@
+ int n,old,new;
+    scanf("%d",&n);
+    int arr[n];
+    for(int i=0;i<n;i++){
+        scanf("%d",&arr[i]);
+    }
+    scanf("%d %d",&old,&new);
+    for(int i=0;i<n;i++){
+        if(i==old)
+          arr[i]=new;
+    } 
+    for(int i=0;i<n;i++){
+        printf("%d ",arr[i]);
+    }
