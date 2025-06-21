@@ -1,0 +1,16 @@
+#include <stdio.h>
+    struct node{
+        int rollno;
+        char name[100];
+        float marks;
+    };
+    void display(struct node  s){
+        printf("%d\n",s.rollno);
+        printf("%s\n",s.name);
+        printf("%f\n",s.marks);
+    }
+    int main()
+    {
+        struct node s1={10,"sai",55.33};
+        display(s1);
+    }
