@@ -1,0 +1,24 @@
+#include <stdio.h>
+union node{
+    int rollno;
+    char name[100];
+    float marks;
+};
+void read(union node *u)
+{
+  //  scanf("%d",&u->rollno);
+   scanf("%f",&u->marks);
+    scanf("%s",u->name);
+}
+void display(union node u)
+{
+    //printf("%d\n",u.rollno);
+    printf("%f\n",u.marks);
+    printf("%s\n",u.name);
+}
+int main(union node u)
+{
+    union node u1;
+    read(&u1);
+    display(u1);
+}
