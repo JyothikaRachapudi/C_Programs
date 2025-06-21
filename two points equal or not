@@ -1,0 +1,18 @@
+#include <stdio.h>
+struct node{
+    int x,y;
+};
+int equal(struct node p1,struct node p2)
+{
+  return (p1.x==p2.x||p1.y==p2.y);
+}
+int main()
+{
+    struct node p1,p2;
+    scanf("%d %d",&p1.x,&p1.y);
+    scanf("%d %d",&p2.x,&p2.y);
+    if(equal(p1,p2))
+    printf("Equal");
+    else
+    printf("Not");
+}
