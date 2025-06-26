@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+    int a=20;
+    int *ptr=&a;
+    printf("Value of a variable : %d\n",a);
+    printf("Address of a variable :%p\n",&a);
+    printf("Value of a pointer variable:%d\n",*ptr);
+    printf("Address of a pointer variable:%p\n",ptr);
+    return 0;
+}
