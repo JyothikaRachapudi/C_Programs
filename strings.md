@@ -148,4 +148,157 @@ int main() {
     printf("Count %d",i);
     return 0;
 }
-11.
+12.#include <stdio.h>
+#include <string.h>
+int main()
+{
+    char str[10],temp;
+    int i,j;
+    printf("Enter a string:");
+    fgets(str,sizeof(str),stdin);
+    int len=strlen(str);
+    for(i=0;i<len-1;i++)
+    {
+        for(j=0;j<len-1-i;j++)
+        {
+            if(str[j]>str[j+1])
+            {
+                temp=str[j];
+                str[j]=str[j+1];
+                str[j+1]=temp;
+            }
+        }
+    }
+    printf("%s",str);
+    return 0;
+}
+13.*******************************************************************************/
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+    char str[100],substr[100];
+    int start,length,i;
+    fgets(str,sizeof(str),stdin);
+    printf("Enter starting index:");
+    scanf("%d",&start);
+    printf("enter substring length:");
+    scanf("%d",&length);
+    for(i=0;i<length;i++)
+    substr[i]=str[start+i];
+    substr[i]='\0';
+    printf("%s",substr);
+    return 0;
+}
+15.#include <stdio.h>
+#include <string.h>
+int main()
+{
+    char str[100],i=0;
+    printf("Enter string:");
+    fgets(str,sizeof(str),stdin);
+    while(str[i]!='\0')
+    {
+        if(str[i]>='a'&&str[i]<='z')
+        str[i]=str[i]-32;
+        else  if(str[i]>='A'&&str[i]<='Z')
+        str[i]=str[i]+32;
+        i++;
+    }
+    printf("%s",str);
+    return 0;
+}
+16.#include <string.h>
+int main()
+{
+    char str[100],arr[10][10];
+    int i=0,j=0,size=0,c=0;
+    printf("Enter string:");
+    fgets(str,sizeof(str),stdin);
+    while(str[i]!='\0')
+    {
+        if(str[i]!=' ')
+        arr[size][j++]=str[i];
+        else{
+            size++;
+            j=0;
+        }
+        i++;
+    }
+    for(int i=0;i<=size;i++){
+    printf("%s ",arr[i]);
+    if(strcmp(arr[i],"the")==0)
+    c++;
+    }
+    printf("%d",c);
+    return 0;
+}
+17.#include <stdio.h>
+#include <string.h>
+int main()
+{
+    char str[100];
+    int i=0,j=0;
+    printf("Enter string:");
+    fgets(str,sizeof(str),stdin);
+    while(str[i]!='\0')
+    {
+        if ((str[i] >= 'A' && str[i] <= 'Z') || (str[i] >= 'a' && str[i] <= 'z')) {
+            str[j] = str[i]; 
+            j++;
+        }
+        i++;
+    }
+    str[j]='\0';
+    printf("%s",str);
+    return 0;
+}
+18.include <stdio.h>
+#include <string.h>
+int main()
+{
+    char str[100];
+    int i=0,j=0,size=0,c=0;
+    printf("Enter string:");
+    scanf("%s",str);
+    int len=strlen(str);
+    for(int i=0;i<len;i++)
+    {
+        c=1;
+        if(str[i]=='\0')
+           continue;
+        for(j=i+1;j<len;j++)
+        {
+            if(str[j]==str[i]){
+            c++;
+            str[j]='\0';}
+        }
+        printf("%c  %d\n",str[i],c);
+    }
+    return 0;
+}
+19.#include <stdio.h>
+#include <string.h>
+int main()
+{
+    char str[100];
+    int i=0,j=0,size=0,c=0;
+    printf("Enter string:");
+    scanf("%s",str);
+    int len=strlen(str);
+    for(int i=0;i<len;i++)
+    {
+        c=1;
+        if(str[i]=='\0')
+           continue;
+        for(j=i+1;j<len;j++)
+        {
+            if(str[j]==str[i]){
+            c++;
+            str[j]='\0';}
+        }
+        printf("%c  %d\n",str[i],c);
+    }
+    return 0;
+}
+20.
