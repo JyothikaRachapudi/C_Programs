@@ -1,6 +1,9 @@
 C
+
 #Programming Questions
+
 ##Strings
+
 ### 1.
 ```
 #include<stdio.h>
