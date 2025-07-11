@@ -357,7 +357,130 @@ int main()
 ```
 ### 20.
 ```
+#include <stdio.h>
+#include <string.h>
+int main() {
+    char str[100];
+    int i = 0, start = 0, end = 0, len = 0;
+    int maxLen = 0, minLen = 100; 
+    int maxStart = 0, minStart = 0;
+    printf("Enter a string: ");
+    fgets(str, sizeof(str), stdin);
+    while (str[i] != '\0') {
+        if (str[i] != ' ' && str[i] != '\n') {
+            if (len == 0) start = i;  
+            len++;
+        } else {
+            if (len > 0) {
+                if (len > maxLen) {
+                    maxLen = len;
+                    maxStart = start;
+                }
+                if (len < minLen) {
+                    minLen = len;
+                    minStart = start;
+                }
+                len = 0;
+            }
+        }
+        i++;
+    }
+    if (len > 0) {
+        if (len > maxLen) {
+            maxLen = len;
+            maxStart = start;
+        }
+        if (len < minLen) {
+            minLen = len;
+            minStart = start;
+        }
+    }
+     printf("Largest word: ");
+    for (i = maxStart; i < maxStart + maxLen; i++)
+    printf("%c", str[i]);
+    printf("\n");
+
+    printf("Smallest word: ");
+    for (i = minStart; i < minStart + minLen; i++) printf("%c", str[i]);
+    printf("\n");
+
+    return 0;
+}
+```
+### 21.
+```
 #include<stdio.h>
 int main()
 {
-   
+char str[100];
+int i=0;
+scanf("%s",str);
+for(i=0;str[i]!='\0';i++)
+{
+    if(str[i]>=65 && str[i]<=90)
+    continue;
+    else
+    str[i]=str[i]-32;
+}
+printf("%s",str);
+}
+```
+### 22.
+```
+#include<stdio.h>
+int main()
+{
+   char str[100];
+   int i=0;
+   scanf("%s",str);
+   for(i=0;str[i]!='\0';i++)
+   {
+      if(str[i]>=65 && str[i]<=65)
+      str[i]=str[i]+32;
+      else
+      continue;
+  }
+printf("%s",str);
+}
+```
+### 23.
+```
+#include<stdio.h>
+int main()
+{
+  char ch;
+  scanf("%c",&ch);
+  if((n>='0' && n<='9') || (n>='A' && n<='F'))
+  printf("HexaDecimal");
+  else
+  printf("Not");
+}
+```
+### 24.
+```
+#include<stdio.h>
+int main()
+{
+ char ch;
+ scanf("%c",&ch);
+ if(ch>='A' && ch<='Z')
+ printf("Uppercase");
+ else
+ printf("Not");
+}
+```
+### 25.
+```
+#include<stdio.h>
+int main()
+{
+  char str[100];
+  fgets(str,sizeof(str),stdin);
+  for(int i=0;str[i]!='\0';i++)
+    {
+        if(str[i]==' ')
+        str[i]='@';
+    }
+    printf("%s",str);
+}
+```
