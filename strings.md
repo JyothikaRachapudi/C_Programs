@@ -1,11 +1,16 @@
-//strings
-1.#include<stdio.h>
+C
+#Programming Questions
+##Strings
+### 1.
+```
+#include<stdio.h>
 int main()
 {
    char str[100];
    scanf("%s",str);
    printf("%s",str);
 }
+```
 2.include <stdio.h>
 
 int main()
