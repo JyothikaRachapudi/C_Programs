@@ -11,7 +11,9 @@ int main()
    printf("%s",str);
 }
 ```
-2.include <stdio.h>
+### 2.
+```
+include <stdio.h>
 
 int main()
 {
@@ -25,8 +27,10 @@ int main()
     printf("%d",length);
     return 0;
 }
-3.#include <stdio.h>
-
+```
+### 3.
+```
+#include <stdio.h>
 int main()
 {
     char str[100];
@@ -36,7 +40,10 @@ int main()
     printf("%c ",str[i]);
     return 0;
 }
-4.#include <stdio.h>
+```
+### 4.
+```
+#include <stdio.h>
 #include <string.h>
 int main()
 {
@@ -48,7 +55,10 @@ int main()
     printf("%c ",str[i]);
     return 0;
 }
-5.#include <stdio.h>
+```
+### 5.
+```
+#include <stdio.h>
 
 int main() {
     char str[100];
@@ -66,7 +76,10 @@ int main() {
     printf("Total number of words = %d\n", words);
     return 0;
 }
-6.#include <stdio.h>
+```
+### 6.
+```
+#include <stdio.h>
 
 int main() {
     char str[100], str1[100];
@@ -82,7 +95,10 @@ int main() {
      printf("equal");
     return 0;
 }
-7.#include <stdio.h>
+```
+### 7.
+```
+#include <stdio.h>
 
 int main() {
     char str[100];
@@ -102,7 +118,10 @@ int main() {
     printf("special characters  count %d",spec);
     return 0;
 }
-8.#include <stdio.h>
+```
+### 8.
+```
+#include <stdio.h>
 
 int main() {
     char str[100],str1[100];
@@ -117,7 +136,10 @@ int main() {
     printf("Copying of a sring : %s",str1);
     return 0;
 }
-9.#include <stdio.h>
+```
+### 9.
+```
+#include <stdio.h>
 
 int main() {
     char str[100];
@@ -140,7 +162,10 @@ int main() {
     printf("Consonant count %d",consonant);
     return 0;
 }
-10.#include <stdio.h>
+```
+### 10.
+```
+#include <stdio.h>
 
 int main() {
     char str[100];
@@ -153,7 +178,10 @@ int main() {
     printf("Count %d",i);
     return 0;
 }
-12.#include <stdio.h>
+```
+### 12.
+```
+#include <stdio.h>
 #include <string.h>
 int main()
 {
@@ -177,7 +205,9 @@ int main()
     printf("%s",str);
     return 0;
 }
-13.*******************************************************************************/
+```
+### 13.
+```
 #include <stdio.h>
 #include <string.h>
 int main()
@@ -195,7 +225,10 @@ int main()
     printf("%s",substr);
     return 0;
 }
-15.#include <stdio.h>
+```
+### 15.
+```
+#include <stdio.h>
 #include <string.h>
 int main()
 {
@@ -213,7 +246,10 @@ int main()
     printf("%s",str);
     return 0;
 }
-16.#include <string.h>
+```
+### 16.
+```
+#include <string.h>
 int main()
 {
     char str[100],arr[10][10];
@@ -238,7 +274,10 @@ int main()
     printf("%d",c);
     return 0;
 }
-17.#include <stdio.h>
+```
+### 17.
+```
+#include <stdio.h>
 #include <string.h>
 int main()
 {
@@ -258,7 +297,10 @@ int main()
     printf("%s",str);
     return 0;
 }
-18.include <stdio.h>
+```
+### 18.
+```
+#include <stdio.h>
 #include <string.h>
 int main()
 {
@@ -282,7 +324,10 @@ int main()
     }
     return 0;
 }
-19.#include <stdio.h>
+```
+### 19.
+```
+#include <stdio.h>
 #include <string.h>
 int main()
 {
@@ -306,4 +351,6 @@ int main()
     }
     return 0;
 }
-20.
+```
+### 20.
+```
