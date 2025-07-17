@@ -484,3 +484,22 @@ int main()
     printf("%s",str);
 }
 ```
+### 26.Write a program in C to count the number of punctuation characters present in a string?
+```c
+#include<stdio.h>
+int main()
+{
+    int i=0,c=0;
+    char str[100];
+    scanf("%s",str);
+   while(str[i]!='\0')
+   {
+      if((str[i]>='a' && str[i]<='z')||(str[i]>=0 && str[i]<=9)||(str[i]>='A' && str[i]<='Z')||str[i]=='\n'||str[i]=='\t'||str[i]==' '){
+      }
+      else
+       c++;
+    i++;
+  }
+  printf("%d",c);
+}
+```
