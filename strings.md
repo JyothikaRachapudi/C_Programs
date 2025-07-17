@@ -4,8 +4,8 @@ C
 
 ##Strings
 
-### 1.
-```
+### 1.  Write a program in C to input a string and print it.
+```c
 #include<stdio.h>
 int main()
 {
@@ -14,8 +14,8 @@ int main()
    printf("%s",str);
 }
 ```
-### 2.
-```
+### 2. Write a program in C to find the length of a string without using library functions
+```c
 include <stdio.h>
 
 int main()
@@ -31,8 +31,8 @@ int main()
     return 0;
 }
 ```
-### 3.
-```
+### 3. Write a program in C to separate individual characters from a string.
+```c
 #include <stdio.h>
 int main()
 {
@@ -44,8 +44,8 @@ int main()
     return 0;
 }
 ```
-### 4.
-```
+### 4.  Write a program in C to print individual characters of a string in reverse order.
+```c
 #include <stdio.h>
 #include <string.h>
 int main()
@@ -59,8 +59,8 @@ int main()
     return 0;
 }
 ```
-### 5.
-```
+### 5. . Write a program in C to count the total number of words in a string.
+```c
 #include <stdio.h>
 
 int main() {
@@ -80,8 +80,8 @@ int main() {
     return 0;
 }
 ```
-### 6.
-```
+### 6.Write a program in C to compare two strings without using string library functions
+```c
 #include <stdio.h>
 
 int main() {
@@ -99,8 +99,8 @@ int main() {
     return 0;
 }
 ```
-### 7.
-```
+### 7. Write a program in C to count the total number of alphabets, digits and special characters in a string
+```c
 #include <stdio.h>
 
 int main() {
@@ -122,8 +122,8 @@ int main() {
     return 0;
 }
 ```
-### 8.
-```
+### 8.  Write a program in C to copy one string to another string
+```c
 #include <stdio.h>
 
 int main() {
@@ -140,8 +140,8 @@ int main() {
     return 0;
 }
 ```
-### 9.
-```
+### 9. Write a program in C to count the total number of vowels or consonants in a string
+```c
 #include <stdio.h>
 
 int main() {
@@ -166,8 +166,8 @@ int main() {
     return 0;
 }
 ```
-### 10.
-```
+### 10.. Write a program in C to find the maximum number of characters in a string
+```c
 #include <stdio.h>
 
 int main() {
@@ -182,8 +182,9 @@ int main() {
     return 0;
 }
 ```
-### 12.
-```
+### 11. Write a C program to sort a string array in ascending order.
+### 12.  Write a program in C to read a string from the keyboard and sort it using bubble sort.
+```c
 #include <stdio.h>
 #include <string.h>
 int main()
@@ -209,7 +210,7 @@ int main()
     return 0;
 }
 ```
-### 13.
+### 13. Write a program in C to extract a substring from a given string
 ```
 #include <stdio.h>
 #include <string.h>
@@ -229,8 +230,9 @@ int main()
     return 0;
 }
 ```
-### 15.
-```
+### 14.  Write a C program to check whether a substring is present in a string.
+### 15.  write a program in c to read a sentence and replace lowercase characters with uppercase and vice versa
+```c
 #include <stdio.h>
 #include <string.h>
 int main()
@@ -250,8 +252,8 @@ int main()
     return 0;
 }
 ```
-### 16.
-```
+### 16. Write a program in C to find the number of times a given word 'the' appears in the given string
+```c
 #include <string.h>
 int main()
 {
@@ -278,8 +280,8 @@ int main()
     return 0;
 }
 ```
-### 17.
-```
+### 17. Write a program in C to remove characters from a string except alphabets.
+```c
 #include <stdio.h>
 #include <string.h>
 int main()
@@ -301,8 +303,8 @@ int main()
     return 0;
 }
 ```
-### 18.
-```
+### 18.Write a program in C to find the frequency of characters
+```c
 #include <stdio.h>
 #include <string.h>
 int main()
@@ -328,8 +330,8 @@ int main()
     return 0;
 }
 ```
-### 19.
-```
+### 19.. Write a program in C to combine two strings manually
+```c
 #include <stdio.h>
 #include <string.h>
 int main()
@@ -355,8 +357,8 @@ int main()
     return 0;
 }
 ```
-### 20.
-```
+### 20. Write a program in C to find the largest and smallest words in a string
+```c
 #include <stdio.h>
 #include <string.h>
 int main() {
@@ -407,8 +409,8 @@ int main() {
     return 0;
 }
 ```
-### 21.
-```
+### 21. Write a program in C to convert a string to uppercase
+```c
 #include<stdio.h>
 int main()
 {
@@ -425,8 +427,8 @@ for(i=0;str[i]!='\0';i++)
 printf("%s",str);
 }
 ```
-### 22.
-```
+### 22. Write a program in C to convert a string to lowercase
+```c
 #include<stdio.h>
 int main()
 {
@@ -443,8 +445,8 @@ int main()
 printf("%s",str);
 }
 ```
-### 23.
-```
+### 23. Write a program in C to check whether a character is a Hexadecimal Digit or not
+```c
 #include<stdio.h>
 int main()
 {
@@ -456,8 +458,8 @@ int main()
   printf("Not");
 }
 ```
-### 24.
-```
+### 24. Write a program in C to check whether a letter is uppercase or not
+```c
 #include<stdio.h>
 int main()
 {
@@ -469,8 +471,8 @@ int main()
  printf("Not");
 }
 ```
-### 25.
-```
+### 25.Write a program in C to replace the spaces in a string with a specific character
+```c
 #include<stdio.h>
 int main()
 {
