@@ -32,3 +32,17 @@ An automated Manufacturing Quality Deviation Management System addresses these c
 The proposed solution is a web-based application that enables users to create, investigate, manage, monitor, and close manufacturing quality deviations through a structured workflow.
 
 The system captures detailed deviation information, validates mandatory fields, identifies missing information, manages investigations, tracks CAPA activities, generates AI-assisted summaries, drafts follow-up communications, and provides dashboards for real-time monitoring.
+Target Users
+
+The application is intended for:
+
+Quality Engineers
+Production Supervisors
+Manufacturing Operators
+Quality Managers
+CAPA Coordinators
+Process Engineers
+Plant Managers
+Internal Auditors
+Compliance Officers
+System Administrators
